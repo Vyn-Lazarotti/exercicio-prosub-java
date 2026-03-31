@@ -17,13 +17,13 @@ public class GestaoSubmarino {
             System.out.println("Ritmo lento: Finalização prevista para 2037");
         }
 
-        String acesso = "total";
-        String country = "brasil";
+        String acesso = "Total";
+        String country = "Brasil";
         System.out.println("Segunda situação: Protocolo de Acesso Internacional");
         System.out.println("Insira o nível de acesso: ");
-        String primeiraSenha = teclado.nextLine();
+        String primeiraSenha = teclado.next();
         System.out.println("Insira o país: ");
-            String segundaSenha = teclado.nextLine();
+            String segundaSenha = teclado.next();
         if (acesso.equalsIgnoreCase(primeiraSenha)) {
             if (country.equalsIgnoreCase(segundaSenha)) {
                 System.out.println("Acesso autorizado ao Almirantado");
