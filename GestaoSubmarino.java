@@ -9,6 +9,7 @@ public class GestaoSubmarino {
         System.out.println("Primeira situação: Orçamento e cronograma");
         System.out.println("Insira o valor do repasse anual (equivale a bilhões de reais): ");
         double valor = teclado.nextDouble();
+        teclado.nextLine();
         if (valor < 0.5) {
             System.out.println("ALERTA: Risco de paralisação total. Data estimada: 2045");
         } else if (valor > 1.0) {
