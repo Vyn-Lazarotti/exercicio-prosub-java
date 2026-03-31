@@ -35,9 +35,9 @@ public class GestaoSubmarino {
         System.out.println("Terceira situação: Propulsão (Simulação de Segurança)");
         System.out.println("Insira a temperatura do reator (em graus celsius): ");
         double temperatura = teclado.nextDouble();
-        if (temperatura < 280) {
+        if (temperatura < 280.0) {
             System.out.println("Aumentar potência do reator");
-        } else if (temperatura > 350) {
+        } else if (temperatura > 350.0) {
             System.out.println("EMERGÊNCIA: Acionar sistema de resfriamento e emergência");
         } else {
             System.out.println("Operação Normal - Cruzeiro");
