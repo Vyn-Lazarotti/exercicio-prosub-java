@@ -7,7 +7,7 @@ public class GestaoSubmarino {
         System.out.println("Este algoritmo simula um sistema de gestão do programa de desenvolvimento de submarinos");
 
         System.out.println("Primeira situação: Orçamento e cronograma");
-        System.out.println("Insira o valor do repasse anual (em número singular, equivale a bilhões de reais): ");
+        System.out.println("Insira o valor do repasse anual (equivale a bilhões de reais): ");
         double valor = teclado.nextDouble();
         if (valor < 0.5) {
             System.out.println("ALERTA: Risco de paralisação total. Data estimada: 2045");
