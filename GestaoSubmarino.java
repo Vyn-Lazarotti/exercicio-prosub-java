@@ -18,9 +18,9 @@ public class GestaoSubmarino {
             System.out.println("Ritmo lento: Finalização prevista para 2037");
         }
 
+        System.out.println("Segunda situação: Protocolo de Acesso Internacional");
         String acesso = "Total";
         String country = "Brasil";
-        System.out.println("Segunda situação: Protocolo de Acesso Internacional");
         System.out.println("Insira o nível de acesso: ");
         String primeiraSenha = teclado.next();
         System.out.println("Insira o país: ");
