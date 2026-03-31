@@ -11,7 +11,7 @@ public class GestaoSubmarino {
         double valor = teclado.nextDouble();
         if (valor < 0.5) {
             System.out.println("ALERTA: Risco de paralisação total. Data estimada: 2045");
-        } else if (valor > 1) {
+        } else if (valor > 1.0) {
             System.out.println("Projeto acelerado: Possibilidade de antecipação da entrega\"");
         } else {
             System.out.println("Ritmo lento: Finalização prevista para 2037");
